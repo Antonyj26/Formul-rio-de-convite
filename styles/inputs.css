@@ -1,0 +1,72 @@
+input,
+textarea,
+select {
+  color: var(--input-placeholder);
+  appearance: none;
+  width: 100%;
+  border-radius: 8px;
+  height: 48px;
+  padding: 16px;
+  background-color: var(--input-base);
+  border: 1px solid var(--input-stroke);
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.date-wrapper,
+.location-wrapper {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.description-wrapper {
+  margin-top: 16px;
+  margin-bottom: 48px;
+
+  textarea {
+    margin-top: 12px;
+    height: 136px;
+  }
+}
+
+.radio-wrapper {
+  color: white;
+
+  select {
+    margin-top: 16px;
+    margin-bottom: 28px;
+  }
+}
+
+.contacts-wrapper {
+  input {
+    margin-top: 12px;
+    margin-bottom: 24px;
+  }
+}
+
+.email-wrapper,
+.number-wrapper {
+  input {
+    margin-top: 12px;
+    margin-bottom: 16px;
+  }
+}
+
+button {
+  display: flex;
+  height: 48px;
+  padding: 4px 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #1d6fb6;
+  color: var(--text-heading);
+  font-family: "Open Sans", sans-serif;
+  margin-top: 48px;
+}
